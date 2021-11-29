@@ -1,0 +1,145 @@
+footer{
+    position: relative;
+    width: 100%;
+    background: #f0ebeee0;
+    padding: 10px 10vw;
+    padding-bottom: 80px;
+   
+}
+/* .footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.footer-content .logo{
+    height: 160px;
+
+}
+.category{
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    list-style: none;
+    text-transform: capitalize;
+}
+.footer-ul-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-title{
+    grid-column: span 2;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.footer-link{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.footer-title, .info{
+    color: #fff;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.footer-social-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.social-link{
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.social-link:nth-child(1){
+    margin-left: 0;
+    
+}
+.footer-credit{
+    position: absolute;
+    text-align: center;
+    background: rgb(0, 0, 0, 0.7);
+    text-transform: capitalize;
+    padding: 5px;
+    color: #fff;
+    margin-top: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.social-networks{
+    position: absolute;
+} */
+.footer-items{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.category{
+    list-style: none;
+    text-transform: capitalize;
+}
+.footer-link{
+    text-decoration: none;
+    color: #666;
+    line-height: 30px;
+    font-family: futura-pt,sans-serif;
+    letter-spacing: .4px;
+    font-size: .875rem;
+
+}
+.category-tittle{
+    font-size: .875rem;
+    grid-column: span(2);
+    color: #666;
+    padding-bottom: 20px;
+    font-family: futura-pt,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.footer-link:hover{
+    color: blue;
+}
+.social-networks{
+    display:block;
+
+}
+.social-networks h1{
+    text-transform: uppercase;
+    font-family: futura-pt,sans-serif;
+    font-size: .875rem;
+    margin-bottom: 20px;
+}
+.social-media{
+    margin-left: 10px;
+}
+.social-media:nth-child(1){
+    margin-left: 0;
+}
+.footer-credit{
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    background: whitesmoke;
+    width: 100%;
+    text-transform: capitalize;
+    font-family: futura-pt,sans-serif;
+    padding: 10px;
+    font-weight: 600;
+    color: #666;
+    background: rgb(233, 209, 209);
+}
+.icons{
+    width: 30px!important;
+    height: 30px!important;
+    color: #383838;
+}

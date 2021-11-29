@@ -1,0 +1,140 @@
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:10px;
+    margin-left: 100px;
+    width: 100%;
+}
+.product-details{
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding:20px 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.product-thumb{
+    width: 500px;
+}
+.image-slider{
+    width:500px;
+    height: 500px;
+    background-image: url('../img/shirt5.jpg');
+    position: relative;
+    background-size: cover;
+}
+.product-parts{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: whitesmoke;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100px;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 90%;
+    
+}
+.product-parts img{
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+    object-fit: cover;
+    
+    
+}
+.product-parts img:hover{
+    transform: scale(1.1);
+}
+.details{
+    width: 50%;
+}
+.product-brand{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.product-descrip{
+    font-size: 25px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+.product-discount-price{
+    font-weight: 900;
+    font-size: 20px;
+}
+.product-actual-price{
+    text-decoration: line-through;
+    opacity: .4;
+}
+.product-discount{
+    color: red;
+    opacity: .7;
+}
+.images:hover{
+    /* opacity: .2; */
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px;
+}
+.product-sub-heading{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 300 ;
+    margin-top: 30px;
+}
+.size-radio-btn{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #383838;
+    border-radius: 50%;
+    margin: 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #383838;
+    cursor: pointer;
+}
+.size-radio-btn.check{
+    background-color: #383838;
+    color: #fff;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;;
+    
+}
+.buttons{
+    display: flex;
+    margin-bottom: 30px;
+    width: 500px;
+    align-items: center;
+}
+.add-to{
+    text-transform: uppercase;
+    padding: 20px;
+    border: 1px solid #383838;
+    border-radius: 5px;
+    background: none;  
+    font-size: 20px;
+    margin-left: 10px;
+    color: orangered;
+    width:200px;
+}
+.add-to:hover{
+    background: orangered;
+    color: white;
+    border: none;
+}
+.icons{
+    width: 40px!important;
+    height: 40px!important;
+}
