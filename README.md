@@ -17,7 +17,7 @@ i sourced the images i used from a friend that owns a local boutique in my local
 
 
 # Credits
-I give credit to <a href="https://github.com/KimeraMoses">@KimeraMoses</a> and <a href="https://github.com/zac-09">@isaacmubiru99@gmail.com </a>
+I would love to give credit to <a href="https://github.com/KimeraMoses">@KimeraMoses</a> and <a href="https://github.com/zac-09">@IsaacMubiru</a> for the hand lendered.
 
 # Conclusion
 I would like to thank Mr Ssejemba Daniel font-end developer CodeBits co. ltd for this assignment because it really stretched me to learn alot of things in such a short period of time. 
